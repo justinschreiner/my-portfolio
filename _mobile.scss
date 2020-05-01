@@ -1,13 +1,15 @@
 // Widescreens
 @include mediaXl {
-  .projects {
+  .projects,
+  .organizations {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 // Desktops & Laptops
 @include mediaLg {
-  .projects {
+  .projects,
+  .organizations {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -63,7 +65,8 @@
     grid-template-columns: 1fr;
   }
 
-  .projects {
+  .projects,
+  .organizations {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -74,7 +77,8 @@
     margin-top: 10vh;
   }
 
-  .projects {
+  .projects,
+  .organizations {
     grid-template-columns: 1fr;
   }
 }
