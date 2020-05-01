@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Justin Schreiner Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinschreiner/my-portfolio.git"
+  },
+  "author": "Justin Schreiner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinschreiner/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/justinschreiner/my-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
