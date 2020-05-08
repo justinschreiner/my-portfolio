@@ -22,14 +22,12 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 8vw;
+    font-size: 10vw;
   }
 
   &.sm-heading {
     margin-bottom: 2vw;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
-    font-size: 3rem;
+    font-size: 2vw;
   }
 }
 
