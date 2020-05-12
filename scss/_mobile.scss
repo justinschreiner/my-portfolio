@@ -1,3 +1,5 @@
+@import "../fontawesome/scss/fontawesome.scss";
+
 // Widescreens
 @include mediaXl {
   .projects,
@@ -58,6 +60,12 @@
       max-width: 250px;
       max-height: 250px;
       object-fit: cover;
+    }
+  }
+
+  .nav-item {
+    i {
+      font-size: 1em;
     }
   }
 
