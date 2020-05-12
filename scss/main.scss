@@ -22,10 +22,10 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 10vw;
+    font-size: 9vw;
   }
 
-  &.sm-heading {
+  &.small-heading {
     margin-bottom: 2vw;
     font-size: 2vw;
   }
@@ -88,6 +88,7 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    width: 17vw;
   }
 
   .bio {
@@ -171,7 +172,8 @@ main {
   margin-top: 1rem;
 
   div {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 4vw;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
