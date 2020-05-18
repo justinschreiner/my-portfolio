@@ -61,7 +61,10 @@
       opacity: 100%; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
+    overflow: auto;
     transition: all 0.5s ease-out; }
+    .menu .nav-item :not(.icons) {
+      font-size: 3.5vh; }
     .menu .nav-item .icons a i {
       margin: 1.5vh 1vh; }
     .menu .nav-item .icons a:hover {
@@ -137,11 +140,13 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 9vw; }
-  h1.small-heading,
+  h1.small-heading, h1.sm-heading,
   h2.small-heading,
-  h3.small-heading {
+  h2.sm-heading,
+  h3.small-heading,
+  h3.sm-heading {
     margin-bottom: 2vw;
-    font-size: 2vw; }
+    font-size: 3vw; }
 
 a {
   color: white;
@@ -182,7 +187,7 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #6d9dc5 3px solid;
-    width: 17vw; }
+    width: 25vw; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job-1 {
@@ -4797,8 +4802,9 @@ readers do not read off random characters that represent icons */
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-    main .small-heading {
-      font-size: 3vw; }
+    main .small-heading,
+    main .sm-heading {
+      font-size: 3vw !important; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -4822,9 +4828,11 @@ readers do not read off random characters that represent icons */
       object-fit: cover; }
   .nav-item i {
     font-size: 1em; }
-  .about-info {
+  #about .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
+  #about .bio-image {
+    width: 30vw; }
   .projects,
   .organizations {
     grid-template-columns: repeat(2, 1fr); } }

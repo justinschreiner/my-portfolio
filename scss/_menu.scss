@@ -95,7 +95,12 @@
 
   .nav-item {
     transform: translate3d(600px, 0, 0);
+    overflow: auto;
     @include easeOut;
+
+    :not(.icons) {
+      font-size: 3.5vh;
+    }
 
     .icons {
       a {
