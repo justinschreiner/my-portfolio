@@ -1,3 +1,5 @@
+@import "../fontawesome/scss/fontawesome.scss";
+
 // Widescreens
 @include mediaXl {
   .projects,
@@ -25,8 +27,9 @@
       margin-bottom: 1rem;
     }
 
-    .small-heading {
-      font-size: 3vw;
+    .small-heading,
+    .sm-heading {
+      font-size: 3vw !important;
     }
   }
 
@@ -61,15 +64,25 @@
     }
   }
 
-  .about-info {
-    grid-template-areas:
-      "bioimage"
-      "bio"
-      "job1"
-      "job2"
-      "job3";
+  .nav-item {
+    i {
+      font-size: 1em;
+    }
+  }
+  #about {
+    .about-info {
+      grid-template-areas:
+        "bioimage"
+        "bio"
+        "job1"
+        "job2"
+        "job3";
 
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .bio-image {
+      width: 30vw;
+    }
   }
 
   .projects,

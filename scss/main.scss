@@ -25,9 +25,10 @@ h3 {
     font-size: 9vw;
   }
 
-  &.small-heading {
+  &.small-heading,
+  &.sm-heading {
     margin-bottom: 2vw;
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -88,7 +89,7 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
-    width: 17vw;
+    width: 25vw;
   }
 
   .bio {
